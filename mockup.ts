@@ -58,7 +58,7 @@ async function main() {
 
   // Resolve UA addresses
   const sa = await ua.getSmartAccountOptions();
-  const maker = sa.evmSmartAccount; // UA contract address (the funder)
+  const maker = sa.smartAccountAddress; // UA contract address (the funder)
 
   /** 2) Approvals from the UA on Polygon */
   // BUY: UA approves USDC to the exchange
