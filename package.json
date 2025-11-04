@@ -1,0 +1,23 @@
+{
+  "name": "universal-accounts-polymarket-api",
+  "version": "1.0.0",
+  "description": "Demo showcasing how to use Universal Accounts with the Polymarket API",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "mockup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@particle-network/universal-account-sdk": "^1.0.7",
+    "@polymarket/clob-client": "^4.22.8",
+    "axios": "^1.13.1",
+    "dotenv": "^17.2.3",
+    "ethers": "^5.8.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
